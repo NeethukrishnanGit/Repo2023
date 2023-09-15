@@ -1,15 +1,15 @@
 def circle(radius):
     area = 3.14*radius*radius
-    print("Area of circle is: ", area)
+    return area
 
 def rectangle(length,breadth):
     area=length*breadth
-    print("Area of rectangle is: ",area)
+    return area
 
 
 def square(side):
     area=side*side
-    print("Area of square is: ",area)
+    return area
 
 while True:
     print("1. Area of circle")
