@@ -6,6 +6,7 @@ def rectangle(length,breadth):
     area=length*breadth
     print("Area of rectangle is: ",area)
 
+
 def square(side):
     area=side*side
     print("Area of square is: ",area)
