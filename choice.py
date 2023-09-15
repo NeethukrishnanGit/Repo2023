@@ -1,6 +1,6 @@
 def circle(radius):
     area = 3.14*radius*radius
-    return area
+    print("Area of circle:",area)
 
 def rectangle(length,breadth):
     area=length*breadth
