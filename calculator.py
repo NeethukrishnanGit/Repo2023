@@ -8,7 +8,7 @@ def calc(a, b, c="+"):
     elif c=="/":
         return a/b
     elif c=="%":
-        return a%b
+        print("modulus output:",a%b)
 
     else:
         return False
